@@ -1,0 +1,128 @@
+\documentclass[hidelinks]{resume} % Use the custom resume.cls style
+
+% \usepackage[left=0.4 in,top=0.2in,right=0.4 in,bottom=0.2in]{geometry} % Document margins
+\usepackage[left=0.5in, top=0.4in,right=0.5in, bottom=0.4in]{geometry} % Document margins
+
+% Using the `raleway` font.
+\usepackage[T1]{fontenc}
+\usepackage[default]{raleway}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, before=\vspace{-6pt}, leftmargin=4mm}
+% \setlist[itemize]{topsep=-1pt}
+% \setlist[itemize]{noitemsep}
+% \setlist[itemize]{nosep, after=\vspace{\baselineskip}}
+% \setlist[itemize]{nosep, before=\vspace{-4pt}, after=\vspace{0pt}}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Dennis Akar} % Your name
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+% \address{\href{mailto:da537@cam.ac.uk}{da537@cam.ac.uk} \\
+\address{\href{mailto:denizhanak@gmail.com}{denizhanak@gmail.com} \\
+% \href{https://denizhanakar.com}{denizhanakar.com} \\
+\href{https://dennisakar.com}{dennisakar.com} \\
+\href{https://github.com/dennis-akar}{github.com/dennis-akar} \\
+UK Citizen}  % Your phone number and email
+% denizhanak@gmail.com\\
+% github.com/denizhanakar
+
+\begin{document}
+% ============================================================================ %
+% EDUCATION
+\begin{rSection}{Education}
+
+{\textbf{University of Cambridge}\hfill {2021 - 2022}\\
+\textit{MPhil in Advanced Computer Science}}
+\begin{itemize}
+    \item Pass with distinction with 81.20\% GPA.
+    \item Awarded the £5,000 ACS MPhil Scholarship for academic excellence.
+    \item Researched geometric DL for molecular graphs (drug discovery) supervised by Prof Pietro Liò \& Dr Cristian Bodnar.
+\end{itemize}
+
+{\textbf{University of Manchester}} \hfill {2018 - 2021}\\
+\textit{BSc Computer Science and Mathematics}
+\begin{itemize}
+    \item First Class Honours with 83.36\% GPA.
+    \item Awarded Certificate of Excellence for top 10\% graduating students.
+\end{itemize}
+
+\end{rSection}
+% \input{2skills}
+% ============================================================================ %
+% EXPERIENCE
+\begin{rSection}{Experience}
+
+\textbf{SERI MATS - Research Fellow}
+\hfill {May 2023 - Present}
+\begin{itemize}
+    \item Investigating ``Attention Head Superposition'' in language models with Chris Mathwin and Lee Sharkey.
+    \item Facilitated Alignment 201 reading group for 5 SERI MATS scholars.
+\end{itemize}
+
+\textbf{ARENA}
+\hfill{June 2023}
+\begin{itemize}
+    \item Self-studied Redwood Research's MLAB curriculum to work as a TA (for the mechanistic interpretability chapter) and as a participant (for the training LLMs at scale chapter) for ARENA (Alignment Research Engineer Accelerator).
+    \item Aided participants on examining and interpreteing Indirect Object Identification, balanced bracket classification, superposition, and OthelloGPT.
+\end{itemize}
+
+\textbf{SERI MATS: Mechanistic Interpretability (Neel Nanda) - Research Fellow}
+\hfill {Nov 2022 - Jan 2023}
+\begin{itemize}
+    \item Applied the original and extended logit lens to the IOI task across a set of GPT-2 sized models (extended DLA). Extended logit lens uses consecutive layers at the end of the model to map the residual stream to logit space.
+    \item Found the tendency for certain models (e.g. GPT-Neo) to ``flip'' i.e. assign an \textit{extremely low probability} throughout the model to the token that it will eventually output and used extended DLA to analyze how this tendency changes.
+\end{itemize}
+
+\textbf{CancerAI (University of Cambridge) - Research Assistant}
+\hfill {Jul 2022 - Oct 2022}
+% Improved performance of the precision oncology platform OncOS.\\
+\begin{itemize}
+    \item Researched explainable AI for use by clinical oncologists using \textbf{Tensorflow} and \textbf{PyTorch}.
+    \item Developed front-end for VIIDA, an application for analyzing, modelling, explaining, and predicting cancer-related data with \textbf{Flask} and \textbf{React}.
+\end{itemize}
+
+\textbf{Cambridge Cancer Genomics - Software Engineer Intern}
+\hfill {Jun 2019 - Sep 2019}
+% Improved performance of the precision oncology platform OncOS.\\
+\begin{itemize}
+    \item Integrated features and fixed bugs for the precision oncology platform OncOS backend using \textbf{Python} and \textbf{Flask}.
+    \item Built a \textbf{full-stack} internal monitoring system for OncOS infrastructure to manage genomic data and processes.
+    \item Researched variational autoencoder algorithms related to DNA sequence compression for SomaticNET, a neural network for evaluating tumor variants, using \textbf{Tensorflow (Python)}, \textbf{Bash}, \textbf{pysam} and \textbf{Annoy}.
+\end{itemize}
+
+\end{rSection} 
+% ============================================================================ %
+% PROJECTS
+\begin{rSection}{Projects}
+
+\textbf{Geometric CW Networks} - MPhil Thesis
+\hfill{2021 - 2022}
+\begin{itemize}
+    \item Introduced geometric inductive priors [E(3) invariance and equivariance] to a GNN with a topological inductive prior, in this case CW Networks (CWNs), an architecture in which graphs are ``lifted'' into higher order hypergraphs using CW complexes, to construct Geometric CW Networks (GCWNs).
+    \item Used \textbf{PyTorch}, \textbf{PyTorch Geometric}, \textbf{gudhi}.
+\end{itemize}
+
+\textbf{Topological Neural Processes} - BSc Thesis
+\hfill{2020 - 2021}
+\begin{itemize}
+    \item Built a novel machine learning model for extracting latent information of topological structures of input (topological data analysis) for Conditional Neural Processes (a neural model which meta-learns a stochastic process) using \textbf{Tensorflow}, \textbf{matplotlib}, \textbf{pickle}, \textbf{gudhi}, and \textbf{numpy}; supervised by Dr Tingting Mu and Dr Cristian Bodnar.
+\end{itemize}
+
+\end{rSection}
+% ============================================================================ %
+% LEADERSHIP
+\begin{rSection}{Leadership}
+
+\textbf{AI Safety Facilitator and Tutor}
+\hfill{2023}
+\begin{itemize}
+    \item Facilitating AI Safety Fundamentals 101 and 201 reading groups and tutoring for MLAB/ARENA (including my modifications for Anki support) for SERI MATS research fellows and graduates from the University of Cambridge.
+\end{itemize}
+
+\end{rSection}
+\end{document}
