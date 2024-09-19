@@ -20,7 +20,7 @@
 
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{dennis akar} % Your name
+\name{Dennis Akar} % Your name
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
 % \address{\href{mailto:da537@cam.ac.uk}{da537@cam.ac.uk} \\
 \address{\href{mailto:denizhanak@gmail.com}{denizhanak@gmail.com} \\
@@ -56,6 +56,20 @@ UK Citizen}  % Your phone number and email
 % ============================================================================ %
 % EXPERIENCE
 \begin{rSection}{Experience}
+    
+\textbf{Long-Term Future Fund - Independent AI Safety Researcher}
+\hfill {Jan 2024 - Present}
+\begin{itemize}
+    \item Investigating behaviour modelling, capability separability, and using mechinterp methods for training and fine-tuning to improve safety in LLMs.
+\end{itemize}
+
+% \textbf{ARENA}
+% \hfill {Sep 2024}
+% \begin{itemize}
+%     \item Investigated ``Attention Head Superposition'' in language models with Chris Mathwin and Lee Sharkey.
+%     \item Discovered how certain properties of the model affect model performance. 
+%     \item Facilitated Alignment 201 reading group for 5 MATS scholars.
+% \end{itemize}
 
 \textbf{MATS: Foundations of Mechinterp (Lee Sharkey) - Research Intern}
 \hfill {May 2023 - Jan 2024}
@@ -92,38 +106,46 @@ UK Citizen}  % Your phone number and email
 \end{rSection} 
 % ============================================================================ %
 % PROJECTS
-\begin{rSection}{Projects}
-
-\textbf{Geometric CW Networks} - MPhil Thesis
-\hfill{2021 - 2022}
+\begin{rSection}{Publications}
+\href{https://www.lesswrong.com/posts/kzc3qNMsP2xJcxhGn/gated-attention-blocks-preliminary-progress-toward-removing-1}{\textbf{Gated Attention Blocks: Preliminary Progress toward Removing Attention Head Superposition}}
+\hfill{Apr 2024}
 \begin{itemize}
-    \item Introduced geometric inductive priors [E(3) invariance and equivariance] to a GNN with a topological inductive prior, in this case CW Networks (CWNs), an architecture in which graphs are ``lifted'' into higher order hypergraphs using CW complexes, to construct Geometric CW Networks (GCWNs).
-    \item Used \textbf{PyTorch}, \textbf{PyTorch Geometric}, \textbf{gudhi}.
+    \item In transformer language models, attention head superposition makes it difficult to study the function of individual attention heads in isolation. We study a particular kind of attention head superposition that involves constructive and destructive interference between the outputs of different attention heads. We propose a novel architecture - a ``gated attention block'' - which resolves this kind of attention head superposition in toy models. In future, we hope this architecture may be useful for studying more natural forms of attention head superposition in large language models.
 \end{itemize}
 
-\textbf{Topological Neural Processes} - BSc Thesis
-\hfill{2020 - 2021}
-\begin{itemize}
-    \item Built a novel machine learning model for extracting latent information of topological structures of input (topological data analysis) for Conditional Neural Processes (a neural model which meta-learns a stochastic process) using \textbf{Tensorflow}, \textbf{matplotlib}, \textbf{pickle}, \textbf{gudhi}, and \textbf{numpy}; supervised by Dr Tingting Mu and Dr Cristian Bodnar.
-\end{itemize}
+% \textbf{Geometric CW Networks} - MPhil Thesis
+% \hfill{2021 - 2022}
+% \begin{itemize}
+%     \item Introduced geometric inductive priors [E(3) invariance and equivariance] to a GNN with a topological inductive prior, in this case CW Networks (CWNs), an architecture in which graphs are ``lifted'' into higher order hypergraphs using CW complexes, to construct Geometric CW Networks (GCWNs).
+%     \item Used \textbf{PyTorch}, \textbf{PyTorch Geometric}, \textbf{gudhi}.
+% \end{itemize}
+
+% \textbf{Topological Neural Processes} - BSc Thesis
+% \hfill{2020 - 2021}
+% \begin{itemize}
+%     \item Built a novel machine learning model for extracting latent information of topological structures of input (topological data analysis) for Conditional Neural Processes (a neural model which meta-learns a stochastic process) using \textbf{Tensorflow}, \textbf{matplotlib}, \textbf{pickle}, \textbf{gudhi}, and \textbf{numpy}; supervised by Dr Tingting Mu and Dr Cristian Bodnar.
+% \end{itemize}
 
 \end{rSection}
 % ============================================================================ %
 % LEADERSHIP
 \begin{rSection}{Leadership}
 
-\textbf{ARENA}
-\hfill{June 2023}
+\textbf{ARENA - Teaching Assistant}
+\hfill{Sep 2024}
+% \hfill{June 2023}
 \begin{itemize}
-    \item Self-studied Redwood Research's MLAB curriculum to work as a TA (for the mechanistic interpretability chapter) and as a participant (for the training LLMs at scale chapter) for ARENA (Alignment Research Engineer Accelerator).
-    \item Aided participants on examining and interpreting Indirect Object Identification, balanced bracket classification, superposition, and OthelloGPT.
+    \item Aided participants in equipping talented individuals with the skills, tools, and environment necessary for upskilling in ML engineering, for the purpose of contributing directly to AI alignment in technical roles.
+    \item Topics include Indirect Object Identification, balanced bracket classification, superposition, OthelloGPT, SAEs, and reinforcement learning.
+    % \item Self-studied Redwood Research's MLAB curriculum to work as a TA (for the mechanistic interpretability chapter) and as a participant (for the training LLMs at scale chapter) for ARENA (Alignment Research Engineer Accelerator).
+    % \item Aided participants on examining and interpreting Indirect Object Identification, balanced bracket classification, superposition, and OthelloGPT.
 \end{itemize}
 
-\textbf{AI Safety Fundamentals Facilitator and Tutor}
-\hfill{June 2023}
-\begin{itemize}
-    \item Facilitating AI Safety Fundamentals 101 and 201 reading groups and tutoring for MLAB/ARENA (including my modifications for Anki support) for MATS research fellows and graduates from the University of Cambridge.
-\end{itemize}
+% \textbf{AI Safety Fundamentals Facilitator and Tutor}
+% \hfill{June 2023}
+% \begin{itemize}
+%     \item Facilitating AI Safety Fundamentals 101 and 201 reading groups and tutoring for MLAB/ARENA (including my modifications for Anki support) for MATS research fellows and graduates from the University of Cambridge.
+% \end{itemize}
 
 \end{rSection}
 \end{document}
