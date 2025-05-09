@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737629874 "/Users/da/codenocloud/denden.dev/cv.tex" "cv.pdf" "cv" 1737629875 0
-  "/Users/da/codenocloud/denden.dev/cv.tex" 1737629873 9322 c3da21f0955378c12af1b02e25ce6648 ""
+["pdflatex"] 1746610660 "/Users/da/codenocloud/denden.dev/cv.tex" "cv.pdf" "cv" 1746610661 0
+  "/Users/da/codenocloud/denden.dev/cv.tex" 1746610660 9840 cbceddca1b3ddf97e2d680ac37e39a27 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc" 1407086865 3304 b327a193b74530cc7913fed1ac883860 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc" 1407086865 2956 e1fccf4917ff205596489dab079ad56f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -83,9 +83,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1684074921 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1684074839 7883456 728c61eec3bc6be3af4413c01aca053e ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv.aux" 1737629875 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
-  "cv.out" 1737629875 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv.tex" 1737629873 9322 c3da21f0955378c12af1b02e25ce6648 ""
+  "cv.aux" 1746610661 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
+  "cv.out" 1746610661 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv.tex" 1746610660 9840 cbceddca1b3ddf97e2d680ac37e39a27 ""
   "resume.cls" 1691019977 4942 2d8e67d42ebe6c5a04249ab479239e5c ""
   (generated)
   "cv.aux"
