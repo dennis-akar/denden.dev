@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.14)  16 JUN 2025 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.14)  24 NOV 2025 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,14 +397,14 @@ LaTeX Font Info:    ... okay on input line 34.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
-* v-part:(T,H,B)=(28.90755pt, 737.15489pt, 28.90755pt)
+* v-part:(T,H,B)=(14.45377pt, 766.06245pt, 14.45377pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=542.02501pt
-* \textheight=737.15489pt
+* \textheight=766.06245pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
-* \topmargin=-80.36244pt
+* \topmargin=-94.81622pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -473,13 +473,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  10529 strings out of 476025
  166792 string characters out of 5790017
- 1876388 words of memory out of 5000000
+ 1877388 words of memory out of 5000000
  30851 multiletter control sequences out of 15000+600000
  582302 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,5n,76p,673b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on cv.pdf (1 page, 78147 bytes).
+Output written on cv.pdf (1 page, 78201 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
